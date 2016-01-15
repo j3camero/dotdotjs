@@ -1,2 +1,2 @@
-# perfect-circle
-Javascript functions for drawing mathematically perfect anti-aliased circles on HTML5 canvas
+# dot.js
+Javascript functions for drawing small dots on HTML5 canvas using mathematical anti-aliasing. Really really ridiculously good looking dots.
