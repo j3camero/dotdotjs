@@ -1,8 +1,38 @@
 <html>
   <head>
     <title>Dot Example</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body>
+  <body onload="OnLoad()">
+    <canvas id="big_hires_circle"
+	    class="big canvii"
+	    width="256"
+	    height="256"></canvas>
+    <canvas id="big_single_pixel"
+	    class="big canvii"
+	    width="256"
+	    height="256"></canvas>
+    <canvas id="big_arc"
+	    class="big canvii"
+	    width="256"
+	    height="256"></canvas>
+    <canvas id="big_dotdot"
+	    class="big canvii"
+	    width="256"
+	    height="256"></canvas>
+    <br />
+    <canvas id="small_single_pixel"
+	    class="small canvii"
+	    width="8"
+	    height="8"></canvas>
+    <canvas id="small_arc"
+	    class="small canvii"
+	    width="8"
+	    height="8"></canvas>
+    <canvas id="small_dotdot"
+	    class="small canvii"
+	    width="8"
+	    height="8"></canvas>
     <script src="dot.js"></script>
   </body>
 </html>
